@@ -1,0 +1,22 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&family=Rubik+Moonrocks&family=Monoton&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap");
+
+
+@layer base {
+    body {
+        @apply font-[Raleway];  
+        -webkit-tap-highlight-color: transparent; /* remove tap highlight */      
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer;        
+    }
+    .social-icon {
+        @apply w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300;
+    }    
+}
