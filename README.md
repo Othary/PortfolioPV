@@ -36,11 +36,11 @@ and inform them about prices and shooting options.
 
 • Tailwind
 
-• React-scroll
-
-• React-icons
+• React-scroll, React-icons
 
 • Get-form
+
+• Netlify, GoDaddy
 
 ### Designed With
 
