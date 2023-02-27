@@ -28,8 +28,6 @@ and inform them about prices and shooting options.
 
 • Creating a perfect colour balance for the whole website based on the main images' colours.
 
-• Advance use of tailwind features to implement the synchronous transition of the main image and the background.
-
 ### Built With
 
 • React
