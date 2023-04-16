@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {FaBars, FaTimes, FaFacebook, FaLinkedin, FaInstagramSquare} from 'react-icons/fa'
+import {FaBars, FaTimes, FaFacebook, FaLinkedin, FaInstagramSquare} from 'react-icons/fa';
 import {Link} from 'react-scroll';
 // import { gsap } from "gsap";
 import Logo from '../assets/DreamSplash7.png';
@@ -48,17 +48,17 @@ const NavBar = ({setAutoSlide}) => {
         <div className='hidden xl:flex fixed flex-col top-[40%] left-0'>
             <ul>
                 <li className='social-icon bg-[#cd3a55] rounded-tr-lg'>
-                    <a className='flex justify-between items-center w-full text-gray-300 ' href="https://www.instagram.com/serj_othary/">
+                    <a className='flex justify-between items-center w-full text-gray-300 ' href="https://www.instagram.com/serj_othary/" target="_blank" rel="noreferrer">
                         Instagram  <FaInstagramSquare size={30}/>
                     </a>
                 </li>
                 <li className = 'social-icon bg-[#3A55CD]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="https://www.facebook.com/SerOthary">
+                    <a className='flex justify-between items-center w-full text-gray-300' href="https://www.facebook.com/SerOthary" target="_blank" rel="noreferrer">
                         Facebook <FaFacebook size={30}/>
                     </a>
                 </li>
                 <li  className='social-icon bg-[#2c9b87] rounded-br-lg'> 
-                    <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/sergey-ivannikov-22b557160/">
+                    <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/sergey-ivannikov-22b557160/" target="_blank" rel="noreferrer">
                         LinkedIn <FaLinkedin size={30}/>
                     </a>
                 </li>           

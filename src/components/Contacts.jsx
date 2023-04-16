@@ -20,17 +20,17 @@ const Contacts = () => {
     <div className='w-full flex justify-center items-center text-xs sm:text-sm  bg-[#0a192f] px-[3vw] '>
             <ul className='flex flex-row w-screen sm:w-[500px] px-4 xl:mt-0 xl:hidden'>
                 <li className='basis-1/3 bg-[#cd3a55] rounded-tl-lg py-[1vw]'>
-                    <a className='flex justify-between items-center w-full text-gray-300 ' href="https://www.instagram.com/serj_othary/">
+                    <a className='flex justify-between items-center w-full text-gray-300 ' href="https://www.instagram.com/serj_othary/" target="_blank" rel="noreferrer">
                         Instagram <FaInstagramSquare size={25}/>
                     </a>
                 </li>
                 <li className = 'basis-1/3 bg-[#3A55CD] py-[1vw]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href="https://www.facebook.com/SerOthary">
+                    <a className='flex justify-between items-center w-full text-gray-300' href="https://www.facebook.com/SerOthary" target="_blank" rel="noreferrer">
                         Facebook <FaFacebook size={24}/>
                     </a>
                 </li>
                 <li  className='basis-1/3 bg-[#2c9b87] rounded-tr-lg py-[1vw]'> 
-                    <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/sergey-ivannikov-22b557160/">
+                    <a className='flex justify-between items-center w-full text-gray-300' href="https://www.linkedin.com/in/sergey-ivannikov-22b557160/" target="_blank" rel="noreferrer">
                         LinkedIn <FaLinkedin size={25}/>
                     </a>
                 </li>           
