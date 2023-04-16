@@ -7,7 +7,7 @@
 The portfolio was made with the purpose to make customers aware of my main target in the photography business
 and inform them about prices and shooting options.
 
-### The common funtionalities:
+### The common functionalities:
 
 •	Responsive design
 
@@ -17,7 +17,7 @@ and inform them about prices and shooting options.
 
 • Contact form 
 
-### Main Challanges
+### Main Challenges
 
 • The greatest issue was fixing the small barely distinguished lag between changing slides and the render.  
   And with the easiest solution found is just to change the `useEffect` hook to `useLayoutEffect`. (Who could possibly guess?)
@@ -49,6 +49,6 @@ and inform them about prices and shooting options.
 • Canva's color wheel
 
 
-### The Scope Of Responsobilities
+### The Scope Of Responsibilities
 
 Fully made by myself including design and photographies
