@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# My Personal Photography Portfolio: https://dream-splash.com/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![01ProjectImg](https://user-images.githubusercontent.com/65731630/221317530-c3aa72db-f73b-4fbb-a117-6f97a1cb834b.jpg)
 
-## Available Scripts
+## About The Project:
 
-In the project directory, you can run:
+The portfolio was made with the purpose to make customers aware of my main target in the photography business
+and inform them about prices and shooting options.
 
-### `npm start`
+### The common functionalities:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+•	Responsive design
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+• Smooth scroll
 
-### `npm test`
+• Personally-made slider which shows 3 pictures at the same time translating the main one to the background as well.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+• Contact form 
 
-### `npm run build`
+### Main Challenges
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+• The greatest issue was fixing the small barely distinguished lag between changing slides and the render.  
+  And with the easiest solution found is just to change the `useEffect` hook to `useLayoutEffect`. (Who could possibly guess?)
+  
+• Working with coordinates `getBoundingClientRect` and making smooth and precise transitions and scaling of images.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+• Redesigning the slider for the mobile version without losing the main visual feature.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+• Creating a perfect colour balance for the whole website based on the main images' colours.
 
-### `npm run eject`
+### Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+• React
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+• Tailwind
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+• React-scroll, React-icons
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+• Get-form
 
-## Learn More
+• Netlify, GoDaddy
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Designed With
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+• Figma
 
-### Code Splitting
+• Photoshop
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+• Canva's color wheel
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### The Scope Of Responsibilities
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Fully made by myself including design and photographies
